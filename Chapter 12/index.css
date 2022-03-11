@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.beta{ 
+    color: rgb(10, 10, 247);
+    text-align: center;
+}
+.alpha{
+    color: red;
+    text-decoration: underline;
+}
+.dod{
+    color: white;
+    background-color: rgb(219, 219, 219);
+    text-indent: 15px;
+}
+.group{
+    text-indent: 55px;
+}

@@ -1,0 +1,39 @@
+.alpha{
+    background-color: rgb(222, 225, 228);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gamma{
+    background-color: rgb(182, 194, 161) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hi{
+    background-color: white;
+}
+.k1{
+    color: rgb(45, 45, 160);
+    font-family: Arial ;
+}
+.k2{
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    margin-left: 90 solid;
+}
+.k3{
+    margin: 20px;
+    transform: rotate(-9deg);
+    
+   
+}
+.k4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(121, 139, 90) ;
+}
+.k5{
+    transform: rotate(9deg);
+    border: 3px solid red;
+}
+.k6{
+     color: orangered;
+}
