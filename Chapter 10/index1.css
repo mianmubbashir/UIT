@@ -1,0 +1,9 @@
+h1, h2, h3{
+    color: rgb(8, 144, 235);
+}
+h2 {
+    background-color: rgb(196, 194, 194);
+}
+.hl{
+    color: red;
+}

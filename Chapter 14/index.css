@@ -1,0 +1,39 @@
+button{
+    background-color: rgb(1, 161, 87);
+}
+ul{
+    list-style-image: url("images/star.png");
+}
+ol{
+    list-style-image: url("images/icon-plus.png");
+}
+.hi{
+    color: white;
+    background-color: rgb(65, 137, 219);
+    border-color: black;
+    width: 35%;
+}
+.fi{
+    background-color: rgb(143, 200, 233);
+    width: 35%;
+}
+.wi{
+    border-collapse: collapse;
+    width: 35%;
+}
+input.yi{
+    background-image: url("images/email.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 2px;
+}
+fieldset{
+    width: 25%;
+    background-color: rgb(228, 225, 225);
+}
+.ki{
+    background-image: url("images/icon-plus.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 2px;
+}
