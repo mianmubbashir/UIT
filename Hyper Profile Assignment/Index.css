@@ -1,0 +1,169 @@
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   background-color: #313a46;
+   padding: 5px;
+}
+.hello{
+   margin-top: 15px;
+   margin-left: 135px;
+}
+input{
+   position: relative;
+   top: -7px;
+   margin-left: 20px;
+   padding:  5px;
+}
+button{
+   position: relative;
+   top: -7px;
+   padding:  5px;
+}
+.ei{
+   margin-top: 10px;
+}
+.ri{
+   background-color: #3688fc;
+}
+.col{
+   margin: 5px;
+   width: 290px;
+   height: 150px;
+   margin: 10px;
+   display: inline-block;
+   position: relative;
+}
+.container{
+   margin: 40px;
+
+}
+.ti{
+   background-color:  rgba(255, 255, 255);
+   padding: 2px;
+}
+.ti ul{ 
+  
+   margin-left: 75px;
+}
+body{
+   background-color: #f1f3fa;;
+}
+
+
+form{
+   display: flex;
+   display: inline;
+   padding: 10px;
+}
+.row{
+   background-color: white;
+}
+.wait {
+   padding: 10px;
+   background-color: rgb(255, 255, 255);
+   width: 290px;
+   height: 150px;
+   margin: 10px;
+   display: inline-block;
+   position: relative;
+}
+
+.center {
+   justify-content: center;
+   display: flex
+}
+   
+.ji{
+   justify-content: center;
+   display: flex;
+}
+
+.div3 {
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+   width: 480px;
+   height: 510px;
+   margin: 10px;
+}
+
+.div2{
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+   width: 720px;
+   height: 510px;
+   margin: 10px;
+}
+
+.ti{
+   background-color: rgba(255, 255, 255);
+}
+
+#align {
+   display: flex;
+   flex-direction: column
+}
+
+table {
+   display: flex;
+   justify-content: center;
+}
+
+td {
+   padding: 15px;
+}
+
+tr {
+   height: 60px;
+   display: flex;
+   justify-content: center
+}
+
+.zi{
+   padding: 10px;
+   background-color: rgb(255, 255, 255);
+   width: 400px;
+   height: 535px;
+   margin: 10px;
+}
+
+.oi{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #42d29d;
+   width: 400px;
+   height: 200px;
+   margin: 5px;
+}
+
+.ni{
+   padding: 10px;
+   background-color: rgb(255, 255, 255);
+   width: 400px;
+   height: 310px;
+   margin: 5px;
+}
+
+.ai{
+   display: flex;
+   flex-direction: column;
+}
+
+footer{
+   display: flex;
+   justify-content: space-between;
+}
+
+h4{
+   margin-left: 135px;
+}
+.why{
+   position: relative;
+   top: 40px;
+   right: 30px;
+}
