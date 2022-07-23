@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Calculator</h1>
+    </div>
+    <div class="tie">
+         <input id="result" type="text" placeholder="0"  name="screen">
+         <table  width="250" cellpadding="14"  cellspacing="8">
+            <tr >
+                <td onclick="clearResult()" class= "corner" onMouseover="this.style.color='red'" onMouseout= "this.style.color=''"><strong> C </strong></td>
+                <td onclick="getNumber('( )')" class="corner" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>( ) </strong></td>
+                <td  onclick="getNumber('/')" class="corner" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>÷</strong></td>
+                <td  onclick="clearResult()"class="del" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>ⓧ</strong></td>
+            </tr>
+            <tr >
+                <td onclick="getNumber('9')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>9</strong></td>
+                <td onclick="getNumber('8')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>8</strong></td>
+                <td onclick="getNumber('7')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>7</strong></td>
+                <td onclick="getNumber('*')" class="corner" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>x</strong></td>
+            </tr>
+            <tr >
+                <td onclick="getNumber('4')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>4</strong></td>
+                <td onclick="getNumber('5')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>5</strong></td>
+                <td onclick="getNumber('6')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>6</strong></td>
+                <td onclick="getNumber('+')" class="corner" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>+</strong></td>
+            </tr>
+            <tr >
+                <td onclick="getNumber('1')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>1</strong></td>
+                <td onclick="getNumber('2')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>2</strong></td>
+                <td onclick="getNumber('3')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>3</strong></td>
+                <td onclick="getNumber('-')" class="corner" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>-</strong></td>
+            </tr>
+            <tr >
+                <td onclick="getNumber('0')" colspan="2" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''"><strong>0</strong></td>
+                <td onclick="getNumber('.')" onMouseover="this.style.color='green'" onMouseout= "this.style.color=''">.</td>
+                <td onclick="getResult('result')" class="corner" onMouseover="this.style.color='blue'" onMouseout= "this.style.color=''"><strong>=</strong></td>
+            </tr>
+         </table>
+        </div>
+</body>
+</html>
